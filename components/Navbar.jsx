@@ -59,7 +59,7 @@ export default function Navbar() {
             <div className="navbar-start !w-full lg:!w-[15%] !flex-row-reverse !justify-between">
                 <div className="dropdown" onClick={() => setIsOpen((prev) => !prev)}>
                     <div ref={navIcon} tabIndex={0} role="button" className="btn btn-ghost lg:hidden hover:text-[#e10024] bg-transparent border-none shadow-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#461e04" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#461e04" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
                         </svg>
                     </div>

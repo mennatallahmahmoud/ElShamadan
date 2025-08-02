@@ -30,7 +30,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className='w-[80%] lg:w-[60%] mx-auto mt-12 text-[#461e04] relative z-10'>
               <fieldset className="fieldset">
                 <legend className="fieldset-legend text-base text-[#461e04]">Reason for Contact</legend>
-                <select defaultValue="--Select an item--" className="select select-warning w-full focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" required>
+                <select defaultValue="--Select an item--" className="select select-warning bg-[#fefcf9] w-full focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" required>
                   <option disabled={true}>--Select an item--</option>
                   <option>General Question</option>
                   <option>Coupons or Samples</option>
@@ -42,25 +42,25 @@ export default function Contact() {
               <div className='grid grid-cols-2 mt-5 gap-3'>
                 <fieldset className="fieldset col-span-2 lg:col-span-1">
                   <legend className='fieldset-legend text-base text-[#461e04]'>First Name</legend>
-                  <input type="text" className="input w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required
+                  <input type="text" className="input bg-[#fefcf9] w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required
                     onChange={(e) => setUserName(e.target.value)}/>
                 </fieldset>
                 <fieldset className="fieldset col-span-2 lg:col-span-1">
                   <legend className='fieldset-legend text-base text-[#461e04]'>Second Name</legend>
-                  <input type="text" className="input w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required/>
+                  <input type="text" className="input bg-[#fefcf9] w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required/>
                 </fieldset>
               </div>
               <fieldset className="fieldset mt-5">
                 <legend className='fieldset-legend text-base text-[#461e04]'>Email Address</legend>
-                <input type="email" className="input w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required/>
+                <input type="email" className="input bg-[#fefcf9] w-full caret-[#461e04] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required/>
               </fieldset>
               <fieldset className="fieldset mt-5">
                 <legend className="fieldset-legend text-base text-[#461e04]">Your Feedback</legend>
-                <textarea className="textarea caret-[#461e04] h-[150px] resize-none textarea-warning w-full focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required></textarea>
+                <textarea className="textarea bg-[#fefcf9] caret-[#461e04] h-[150px] resize-none textarea-warning w-full focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" placeholder="Type here" required></textarea>
               </fieldset>
               <fieldset className="fieldset mt-5">
                 <legend className="fieldset-legend text-base text-[#461e04]">Upload a Photo or File</legend>
-                <input type="file" className="file-input file-input-warning focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" />
+                <input type="file" className="file-input file-input-warning bg-[#fefcf9] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" />
                 <label className="label">Max size 2MB</label>
               </fieldset>
               <button type="submit" className="btn block w-full lg:w-[50%] text-base rounded-3xl uppercase font-semibold mt-10 border-none transition-all duration-500 bg-yellow-300 text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"

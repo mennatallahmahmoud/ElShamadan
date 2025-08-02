@@ -35,7 +35,7 @@ export default function Intro() {
   return (
 
     <div className="hero-sec h-screen relative bg-cover bg-center">
-      <motion.h1 className="absolute [text-shadow:1px_1px_2px_rgba(0,0,0,0.1),2px_2px_4px_rgba(70,30,4,0.2)] z-10 left-1/2 top-[25%] md:top-[18%] -translate-x-1/2 text-4xl text-[#461e04] tracking-widest font-bold w-full text-center px-5"
+      <motion.h1 className="absolute [text-shadow:1px_1px_2px_#ffffff,2px_2px_4px_#ffffff] z-10 left-1/2 top-[20%] md:top-[18%] -translate-x-1/2 text-4xl text-[#461e04] tracking-widest font-bold w-full text-center px-5"
         initial={{ y: -100, opacity: 0 }} 
         whileInView={{ y: 0, opacity: 1 }} 
         transition={{

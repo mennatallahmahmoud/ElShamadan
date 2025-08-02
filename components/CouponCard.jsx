@@ -25,7 +25,7 @@ export default function CouponCard({setShowCard}) {
       ) : (
       <div className="bg-[#fefcf9] rounded-3xl relative w-[80%]">
         <button className="btn absolute top-4 right-4 bg-transparent border-none shadow-none" onClick={() => setShowCard(false)}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hover:stroke-red-600">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#461e04" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#461e04" className="size-6 hover:stroke-red-600">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
         </button>
