@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "flowbite-react patch"
   },
   "dependencies": {
     "framer-motion": "^12.23.1",
