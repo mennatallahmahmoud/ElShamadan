@@ -1,0 +1,124 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --font-heading: 'Playfair_Display', 'Segoe UI', Tahoma, sans-serif;
+  --font-content: 'Karla', 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  background: #fefcf9;
+  color: var(--foreground);
+  font-family: var(--font-content);
+  user-select: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+a:active {
+  background-color: transparent;
+}
+
+.hero-sec {
+  background-image: url("../public/assets/imgs/hero-bg.webp");
+}
+.hero-sec .scroll-icon {
+  animation: move-down 2s infinite ease-in-out;
+}
+
+.sec {
+  background-image: url("../public/assets/imgs/hero-2.webp");
+}
+
+.cat-card:hover img {
+  transform: scale(1.1);
+}
+
+.coupon-sec {
+  background-image: url("../public/assets/imgs/coupon-sec.webp");
+  background-attachment: fixed;
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid #0000;
+  border-right-color: #ffa50097;
+  position: relative;
+  animation: l24 1s infinite linear;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: inherit;
+  animation: inherit;
+  animation-duration: 2s;
+}
+.loader:after {
+  animation-duration: 4s;
+}
+
+.carousel-sec {
+  background-image: url("../public/assets/imgs/carousel-bg.png");
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 20px !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+.swiper-slide-active {
+  transform: scale(1.02);
+}
+.swiper-slide-prev,
+.swiper-slide-next {
+  transform: scale(0.9);
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-sec {
+    background-image: url("../public/assets/imgs/game-sec-bg.svg");
+}
+  
+.products-card:hover img {
+  transform: scale(1.06);
+}
+.products-card:hover .btn {
+  background-color: #461e04;
+  color: white;
+  padding: 0 48px;
+}
+
+.secondary-bg {
+  background-image: url("../public/assets/imgs/product-pg-bg.webp");
+}
+
+@keyframes move-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes l24 {
+  100% {transform: rotate(1turn)}
+}

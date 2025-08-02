@@ -1,0 +1,216 @@
+{
+    "CatsImgs" : [
+        {
+            "id" : 1,
+            "src" : "/assets/imgs/products/shamadan-products.webp",
+            "title" : "ElShamadan"
+        },
+        {
+            "id" : 2,
+            "src" : "/assets/imgs/products/katakito-products.webp",
+            "title" : "KataKito"
+        },
+        {
+            "id" : 3,
+            "src" : "/assets/imgs/products/light-bist-products.webp",
+            "title" : "Light Bisk"
+        },
+        {
+            "id" : 4,
+            "src" : "/assets/imgs/products/tipo-products.webp",
+            "title" : "Tipo"
+        },
+        {
+            "id" : 5,
+            "src" : "/assets/imgs/products/wave-product.webp",
+            "title" : "Wave"
+        },
+        {
+            "id" : 6,
+            "src" : "/assets/imgs/products/pure-products.webp",
+            "title" : "Pure Happiness"
+        },
+        {
+            "id" : 7,
+            "src" : "/assets/imgs/products/nawa3m-products.webp",
+            "title" : "Pure Happiness"
+        }
+    ],
+    "ProductsImgs" : [
+        {
+            "id" : 101,
+            "src" : "/assets/imgs/products-carousel/shamadan-1.webp",
+            "title" : "Chocolate Filled Shamadan",
+            "desc" : "A light and crispy wafer bar generously filled with smooth chocolate cream. Perfect for a quick snack or a sweet treat on the go, it combines the crunch of wafer with the richness of chocolate in every bite. Loved by both kids and adults alike."
+        },
+        {
+            "id" : 102,
+            "src" : "/assets/imgs/products-carousel/light-bisk.webp",
+            "title" : "Light Bisk",
+            "desc" : "A wholesome biscuit made with oats for a healthy and nutritious snack. Rich in fiber and full of natural goodness, Light Bisk is a guilt-free option for those who care about their health without compromising on taste."
+        },
+        {
+            "id" : 103,
+            "src" : "/assets/imgs/products-carousel/katakito.webp",
+            "title" : "Katakito",
+            "desc" : "Thick and bold, Katakito is a wide biscuit bar drenched in rich chocolate. Its firm texture and deep chocolate flavor make it the ideal companion for a coffee break, a school snack, or just a moment of pure indulgence."
+        },
+        {
+            "id" : 104,
+            "src" : "/assets/imgs/products-carousel/tipo.webp",
+            "title" : "Tipo",
+            "desc" : "A fun, round-shaped biscuit covered in a layer of fine chocolate and filled with a creamy center. Tipo is the perfect combination of crunch and cream — playful in shape, satisfying in flavor, and made for those who crave something a little different."
+        },
+        {
+            "id" : 105,
+            "src" : "/assets/imgs/products-carousel/shamadan-3.webp",
+            "title" : "Chocolate Covered Shamadan",
+            "desc" : "Indulge in a crunchy wafer bar that's not only filled with velvety chocolate cream but also fully coated in a rich chocolate layer. Double the chocolate, double the joy. A satisfying bite that melts in your mouth and keeps you reaching for more."
+        },
+        {
+            "id" : 106,
+            "src" : "/assets/imgs/products-carousel/nawa3m.webp",
+            "title" : "Nawaem",
+            "desc" : "Delicate and soft tea biscuits that melt gently in your mouth. Perfect for pairing with tea or coffee, Nawaem adds a touch of comfort to your daily routine. Light, airy, and pleasantly simple."
+        },
+        {
+            "id" : 107,
+            "src" : "/assets/imgs/products-carousel/wave.webp",
+            "title" : "Wave",
+            "desc" : "Crispy wafer fingers layered with smooth vanilla cream for a classic flavor everyone loves. Light, crunchy, and not too sweet — Wave is perfect for those who appreciate a timeless snack that never goes out of style."
+        },
+        {
+            "id" : 108,
+            "src" : "/assets/imgs/products-carousel/shamadan-2.webp",
+            "title" : "White Chocolate Shamadan",
+            "desc" : "A crispy wafer bar filled and coated with luscious white chocolate cream. Its smooth and sweet flavor offers a delicate twist for white chocolate lovers who enjoy a crunchy texture with a creamy heart."
+        },
+        {
+            "id" : 109,
+            "src" : "/assets/imgs/products-carousel/hd.webp",
+            "title" : "HD Biscuit",
+            "desc" : "A crispy, multi-layered wafer filled with intense chocolate cream. HD brings a bolder crunch with every bite, designed for those who enjoy rich chocolate and a satisfying crispiness all in one."
+        },
+        {
+            "id" : 1010,
+            "src" : "/assets/imgs/products-carousel/chocolate-pure.webp",
+            "title" : "Pure Happiness",
+            "desc" : "A sleek, dark chocolate bar crafted for true chocolate lovers. Simple, elegant, and intense — Pure Happiness offers a rich cocoa flavor with just the right balance of bitterness and sweetness. A moment of calm in every bite."
+        },
+        {
+            "id" : 1011,
+            "src" : "/assets/imgs/products-carousel/duetto.webp",
+            "title" : "Duetto",
+            "desc" : "Soft biscuit filled with natural date paste, offering a delightful blend of sweetness and tradition. Duetto is inspired by classic Middle Eastern flavors — a nutritious, energy-boosting snack with a soft texture and authentic taste."
+        }
+    ],
+    "Coupons" : [
+        {
+            "id" : 1001,
+            "title" : "Get 50% off any El Shamadan Biscuits Product!",
+            "expiryDate" : "September 2025"
+        },
+        {
+            "id" : 1002,
+            "title" : "Enjoy a sweet 30% discount on your favorite Shamadan!",
+            "expiryDate" : "October 2025"
+        },
+        {
+            "id" : 1003,
+            "title" : "Buy one, get one FREE!",
+            "expiryDate" : "November 2025"
+        },
+        {
+            "id" : 1004,
+            "title" : "15% off all biscuit collections!",
+            "expiryDate" : "December 2025"
+        },
+        {
+            "id" : 1005,
+            "title" : "Special offer: 40% off selected Tipo!",
+            "expiryDate" : "January 2026"
+        },
+        {
+            "id" : 1006,
+            "title" : "Unlock a 25% discount!",
+            "expiryDate" : "Febrauary 2026"
+        },
+        {
+            "id" : 1007,
+            "title" : "Craving chocolate? Take 35% off your next KataKito!",
+            "expiryDate" : "October 2025"
+        },
+        {
+            "id" : 1008,
+            "title" : "Today’s deal: Flat 20% off!",
+            "expiryDate" : "March 2026"
+        },
+        {
+            "id" : 1009,
+            "title" : "Sweeten your day with 10% off everything!",
+            "expiryDate" : "January 2026"
+        },
+        {
+            "id" : 10010,
+            "title" : "You found a golden coupon! 50% off any product!",
+            "expiryDate" : "August 2026"
+        },
+        {
+            "id" : 10011,
+            "title" : "Exclusive! 45% off all El Shamadan classics!",
+            "expiryDate" : "April 2026"
+        },
+        {
+            "id" : 10012,
+            "title" : "Surprise! Take 30% off your favorite Light Bisk!",
+            "expiryDate" : "Febrauar 2026"
+        },
+        {
+            "id" : 10013,
+            "title" : "Celebrate flavor – 20% off on your next Tipo!",
+            "expiryDate" : "May 2026"
+        },
+        {
+            "id" : 10014,
+            "title" : "Flash Sale: Save 60% on selected items!",
+            "expiryDate" : "January 2026"
+        },
+        {
+            "id" : 10015,
+            "title" : "Your lucky day! Get 1 free item with any purchase!",
+            "expiryDate" : "March 2026"
+        }
+    ],
+    "Shops" : [
+        {
+            "name": "Amazon",
+            "src" : "/assets/imgs/amazon.svg",
+            "href" : "https://www.amazon.eg/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=shamadan"
+        },
+        {
+            "name": "Carrefour",
+            "src" : "/assets/imgs/carrefour.svg",
+            "href" : "https://www.carrefouregypt.com/mafegy/en/search?keyword=shamadan"
+        },
+        {
+            "name": "Noon",
+            "src" : "/assets/imgs/noon.svg",
+            "href" : "https://www.noon.com/egypt-en/search/?q=shamadan"
+        },
+        {
+            "name": "Talabat",
+            "src" : "/assets/imgs/talabat.svg",
+            "href" : "https://www.talabat.com/egypt"
+        },
+        {
+            "name": "HyperOne",
+            "src" : "/assets/imgs/hyper.svg",
+            "href" : "https://www.hyperone.com.eg/search?q=shamadan"
+        },
+        {
+            "name": "eBay",
+            "src" : "/assets/imgs/ebay.svg",
+            "href" : "https://www.ebay.com/sch/258022/i.html?_nkw=shamadan&_from=R40"
+        }
+    ]
+}

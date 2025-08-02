@@ -1,0 +1,7 @@
+:root {
+    --font-game-sec: 'Atma', 'Segoe UI', Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, .game-pg {
+    font-family: var(--font-game-sec);
+}
