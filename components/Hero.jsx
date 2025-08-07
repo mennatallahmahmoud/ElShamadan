@@ -17,7 +17,7 @@ export default function Hero() {
         <p className="text-2xl font-semibold text-[#461e04] mb-5 capitalize">
           A Sweet taste from the past<br/>still here to last!</p>
         <button className="btn border-none rounded-3xl px-10 transition-all font-semibold duration-700 bg-yellow-300 hover:bg-[#461e04] hover:text-white text-[#461e04] hover:px-20 shadow-none" 
-        onClick={() => document.querySelector("#categories").scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+        onClick={() => document.querySelector("#categories").scrollIntoView({ behavior: 'smooth' })}>
           <span className="relative z-10">Discover</span></button>
       </motion.div>
     </div>

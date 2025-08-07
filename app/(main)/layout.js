@@ -7,7 +7,7 @@ import BtnToTop from "@/components/BtnToTop";
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
-  weight: ['400', '600', '700'], 
+  weight: ['400', '600', '900'], 
   variable: '--font-playfairDisplay',
 })
 

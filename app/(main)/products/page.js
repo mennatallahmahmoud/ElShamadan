@@ -15,13 +15,13 @@ export default function Products() {
       <h2 className="text-2xl md:text-5xl opacity-50 tracking-[20px] font-bold text-[#461e04] mx-2 text-center py-3 md:py-8 uppercase">Our Products</h2>
       <div className="grid grid-cols-6 mx-auto w-[80%] gap-6 lg:gap-10 mt-10">
         {prds && prds.map((prd) => (
-        <div key={prd.id} className="products-card card relative bg-white shadow-lg transition-all duration-300 hover:shadow-xl hover:bg-yellow-300 col-span-6 md:col-span-3 lg:col-span-2 border-none">
+        <div key={prd.id} className="products-card card flex flex-col items-center relative bg-[#fefcf9] shadow-lg transition-all duration-300 hover:shadow-xl hover:bg-yellow-300 col-span-6 md:col-span-3 lg:col-span-2 border-none">
           <Link href={`/products/${prd.id}`} className='absolute w-full h-full top-0 left-0 z-10'></Link>
-          <figure className="mx-10 mt-10 overflow-hidden rounded-none">
+          <figure className="mx-5 mt-5 overflow-hidden rounded-none">
             <img
               src={prd.src}
               alt={prd.title}
-              className="w-[80%] transition-all duration-700" loading='lazy'/>
+              className="w-[200px] transition-all duration-700" loading='lazy'/>
           </figure>
           <div className="card-body items-center text-center">
             <h3 className="card-title text-[#461e04]">{prd.title}</h3>
