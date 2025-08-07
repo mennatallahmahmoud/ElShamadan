@@ -45,7 +45,7 @@ export default function Product() {
             <figure className='flex-1/2'>
                 <img
                 src={product.src}
-                alt={product.title} className='w-[80%]'/>
+                alt={product.title} className='w-[90%]'/>
             </figure>
             <div className="card-body flex-1/2 flex justify-center items-center">
                 <div>
