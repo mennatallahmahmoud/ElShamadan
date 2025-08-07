@@ -28,7 +28,7 @@ export default function Categories() {
           ease: "easeOut"
         }}
         viewport={{ once: true, amount: 0.2 }}>
-          <Link href='/products' className='absolute w-full h-full top-0 left-0 z-10'></Link>
+          <Link href={`/products/${cat.product}`} className='absolute w-full h-full top-0 left-0 z-10'></Link>
           <figure className="mx-10 mt-10 overflow-hidden rounded-md">
             <img
               src={cat.src}
@@ -38,7 +38,7 @@ export default function Categories() {
           <div className="card-body items-center text-center">
             <h3 className="card-title text-[#461e04]">{cat.title}</h3>
             <div className="card-actions">
-              <Link href='/products' className="btn shadow-sm px-8 relative z-20 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 text-[#461e04] mt-3 hover:text-white hover:bg-[#461e04] hover:px-12">Discover</Link>
+              <Link href={`/products/${cat.product}`} className="btn shadow-sm px-8 relative z-20 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#ffd112] text-[#461e04] mt-3 hover:text-white hover:bg-[#461e04] hover:px-12">Discover</Link>
             </div>
           </div>
         </motion.div>

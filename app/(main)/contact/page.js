@@ -63,7 +63,7 @@ export default function Contact() {
                 <input type="file" className="file-input file-input-warning bg-[#fefcf9] focus-within:outline-none border-yellow-200 focus-within:border-[#461e04]" />
                 <label className="label">Max size 2MB</label>
               </fieldset>
-              <button type="submit" className="btn block w-full lg:w-[50%] text-base rounded-3xl uppercase font-semibold mt-10 border-none transition-all duration-500 bg-yellow-300 text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
+              <button type="submit" className="btn block w-full lg:w-[50%] text-base rounded-3xl uppercase font-semibold mt-10 border-none transition-all duration-500 bg-[#ffd112] text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
               >Send</button>
             </form>
           </>

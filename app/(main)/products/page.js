@@ -21,12 +21,12 @@ export default function Products() {
             <img
               src={prd.src}
               alt={prd.title}
-              className="w-[90%] transition-all duration-700" loading='lazy'/>
+              className="w-[80%] transition-all duration-700" loading='lazy'/>
           </figure>
           <div className="card-body items-center text-center">
             <h3 className="card-title text-[#461e04]">{prd.title}</h3>
             <div className="card-actions">
-              <Link href={`/products/${prd.id}`} className="btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 text-[#461e04] mt-3">Discover</Link>
+              <Link href={`/products/${prd.id}`} className="btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#ffd112] text-[#461e04] mt-3">Discover</Link>
             </div>
           </div>
         </div>

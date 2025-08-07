@@ -57,9 +57,9 @@ export default function Intro() {
         </Link>
       </div>
       <div className="scroll-icon absolute top-[85%] left-1/2 -translate-x-1/2 cursor-pointer" onClick={scrollToBottom}>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 stroke-gray-800">
-          <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
-        </svg>
+        <button className="btn border-none rounded-3xl px-10 transition-all font-semibold duration-700 bg-[#ffd112] hover:bg-[#461e04] hover:text-white text-[#461e04] hover:px-20 shadow-none" 
+        onClick={() => document.querySelector("#hero").scrollIntoView({ behavior: 'smooth' })}>
+          <span className="relative z-10 text-lg">Explore</span></button>
       </div>
     </div>
   )

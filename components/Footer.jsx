@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <div>
-        <footer className={`footer sm:footer-horizontal text-[#461e04] p-10 ${pathname === '/' ? 'bg-yellow-300' : 'bg-[#fefcf9]'}`}>
+        <footer className={`footer sm:footer-horizontal text-[#461e04] p-10 ${pathname === '/' ? 'bg-[#ffd112]' : 'bg-[#fefcf9]'}`}>
             <nav>
                 <h6 className="footer-title">Products</h6>
                 <Link href='/products' className="link link-hover">ElShamadan</Link>

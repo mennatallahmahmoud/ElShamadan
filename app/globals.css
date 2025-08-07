@@ -23,9 +23,6 @@ a:active {
 .hero-sec {
   background-image: url("../public/assets/imgs/hero-bg.webp");
 }
-.hero-sec .scroll-icon {
-  animation: move-down 2s infinite ease-in-out;
-}
 
 .sec {
   background-image: url("../public/assets/imgs/hero-2.webp");
@@ -98,7 +95,7 @@ a:active {
 }
   
 .products-card:hover img {
-  transform: scale(1.06);
+  transform: scale(1.04);
 }
 .products-card:hover .btn {
   background-color: #461e04;
@@ -108,15 +105,6 @@ a:active {
 
 .secondary-bg {
   background-image: url("../public/assets/imgs/product-pg-bg.webp");
-}
-
-@keyframes move-down {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(20px);
-  }
 }
 
 @keyframes l24 {

@@ -17,7 +17,7 @@ export default function About() {
                 ElShamadan quickly grew into one of the country’s most beloved brands. 
                 From classic plain biscuits to rich chocolate-filled treats, 
                 we’ve become a part of everyday moments—school snacks, tea time, and family gatherings.</p>
-            <Link href='/products' className="btn text-base shadow-sm px-12 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 text-[#461e04] mt-5 hover:text-white hover:bg-[#461e04] hover:px-16">Discover</Link>
+            <Link href='/products' className="btn text-base shadow-sm px-12 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#ffd112] text-[#461e04] mt-5 hover:text-white hover:bg-[#461e04] hover:px-16">Discover</Link>
         </div>
         <div className="col-span-4 lg:col-span-2 shadow-xl">
             <img src="/assets/imgs/about-sec-1.webp" className="rounded-sm" loading="lazy" alt="ElShamadan Story"/>
@@ -31,7 +31,7 @@ export default function About() {
                 our products are now enjoyed not only in Egypt but also in Saudi Arabia, Lebanon, and Tunisia. 
                 What started in 1984 as a local favorite has turned into an international delight, 
                 rooted in quality, tradition, and a genuine love for sweet moments.</p>
-            <Link href='/where-to-buy' className="btn text-base shadow-sm px-12 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 text-[#461e04] mt-5 hover:text-white hover:bg-[#461e04] hover:px-16">Find us</Link>
+            <Link href='/where-to-buy' className="btn text-base shadow-sm px-12 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#ffd112] text-[#461e04] mt-5 hover:text-white hover:bg-[#461e04] hover:px-16">Find us</Link>
         </div>
       </div>
     </div>

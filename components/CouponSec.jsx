@@ -14,7 +14,7 @@ export default function CouponSec() {
                 <h2 className="card-title md:text-lg text-[#461e04] tracking-wider mx-auto">It’s Time to taste our Happiness!</h2>
                 <img className="w-[40%] md:w-[25%] mx-auto" src="/assets/imgs/wafer-icon.svg" alt="Coupon Icon"/>
                 <div className="justify-end card-actions">
-                  <button className="btn rounded-3xl uppercase font-semibold mt-6 border-none transition-all duration-500 bg-yellow-300 text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
+                  <button className="btn rounded-3xl uppercase font-semibold mt-6 border-none transition-all duration-500 bg-[#ffd112] text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
                     onClick={() => setShowCard(true)}>Get Your Coupon!</button>
                 </div>
             </div>

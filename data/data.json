@@ -3,37 +3,44 @@
         {
             "id" : 1,
             "src" : "/assets/imgs/products/shamadan-products.webp",
-            "title" : "ElShamadan"
+            "title" : "ElShamadan",
+            "product" : 101
         },
         {
             "id" : 2,
             "src" : "/assets/imgs/products/katakito-products.webp",
-            "title" : "KataKito"
+            "title" : "KataKito",
+            "product" : 103
         },
         {
             "id" : 3,
             "src" : "/assets/imgs/products/light-bist-products.webp",
-            "title" : "Light Bisk"
+            "title" : "Light Bisk",
+            "product" : 102
         },
         {
             "id" : 4,
             "src" : "/assets/imgs/products/tipo-products.webp",
-            "title" : "Tipo"
+            "title" : "Tipo",
+            "product" : 104
         },
         {
             "id" : 5,
             "src" : "/assets/imgs/products/wave-product.webp",
-            "title" : "Wave"
+            "title" : "Wave",
+            "product" : 107
         },
         {
             "id" : 6,
             "src" : "/assets/imgs/products/pure-products.webp",
-            "title" : "Pure Happiness"
+            "title" : "Pure Happiness",
+            "product" : 1010
         },
         {
             "id" : 7,
             "src" : "/assets/imgs/products/nawa3m-products.webp",
-            "title" : "Pure Happiness"
+            "title" : "Nawaem",
+            "product" : 106
         }
     ],
     "ProductsImgs" : [
