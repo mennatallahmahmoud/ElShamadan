@@ -47,7 +47,7 @@ export default function App() {
         className="mySwiper shadow-lg bg-[#fefbf961]">
         {products && products.map((prd) => (
         <SwiperSlide>
-            <Link href={`/products/${prd.id}`} className='p-2' key={prd.id}>
+            <Link href={`/products/${prd.id}`} className='p-3' key={prd.id}>
                 <img src={prd.src} className='w-[80%] mx-auto' loading='lazy' alt={prd.title}/>
             </Link>
         </SwiperSlide>
