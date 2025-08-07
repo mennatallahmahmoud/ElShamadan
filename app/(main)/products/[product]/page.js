@@ -56,7 +56,7 @@ export default function Product() {
         </div>
         <div>
             <h3 className="text-center text-xl lg:text-3xl text-[#461e04] font-bold tracking-wider mb-10">More Products</h3>
-            <div className='grid grid-cols-1 gap-5 p-6'>
+            <div className='grid grid-cols-3 gap-5 p-6'>
                 {suggestedPrds && suggestedPrds.map((prd) => (
                    <div key={prd.id} className="products-card card relative bg-[#fefcf9] shadow-lg transition-all duration-300 hover:shadow-xl hover:bg-yellow-300 col-span-1 border-none">
                         <Link href={`/products/${prd.id}`} className='absolute w-full h-full top-0 left-0 z-10'></Link>
