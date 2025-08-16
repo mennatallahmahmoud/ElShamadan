@@ -1,4 +1,4 @@
-import { Playfair_Display, Karla } from "next/font/google";
+import { Playfair_Display, Karla, Nunito_Sans } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -17,6 +17,12 @@ const karla = Karla({
   variable: '--font-karla',
 })
 
+const nunitoSans = Nunito_Sans({
+  subsets: ['latin'],
+  weight: ['900'],
+  variable: '--font-nunitoSans',
+})
+
 export const metadata = {
   title: "ElShamadan",
   description: "Egyptian local brand for wafer and biscuits",
@@ -29,7 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${playfairDisplay.variable} ${karla.variable} antialiased`}>
+        className={`${playfairDisplay.variable} ${karla.variable} ${nunitoSans.variable} antialiased`}>
         <Navbar />
         <ScrollToTop />
         {children}

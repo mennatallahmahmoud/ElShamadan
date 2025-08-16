@@ -58,8 +58,8 @@ export default function Navbar() {
         <div className="navbar bg-[#fefcf9] shadow-md px-5 lg:px-10">
             <div className="navbar-start !w-full lg:!w-[15%] !flex-row-reverse !justify-between">
                 <div className="dropdown" onClick={() => setIsOpen((prev) => !prev)}>
-                    <div ref={navIcon} tabIndex={0} role="button" className="btn btn-ghost lg:hidden hover:text-[#e10024] bg-transparent border-none shadow-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#461e04" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#461e04" className="size-6">
+                    <div ref={navIcon} tabIndex={0} role="button" className="btn btn-ghost lg:hidden bg-transparent border-none shadow-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#461e04" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#461e04" className={`size-6 hover:stroke-[#e10024] ${isOpen ? 'stroke-[#e10024]' : ''}`}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
                         </svg>
                     </div>
@@ -67,22 +67,22 @@ export default function Navbar() {
                         <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-[#fefcf9] gap-3 font-semibold rounded-box z-1 mt-3 w-52 p-2 shadow right-0">
-                            <li><a href='/products' className="text-[#461e04] hover:bg-transparent"
+                            <li><a href='/products' className="text-[#461e04] text-sm hover:bg-transparent"
                                 onClick={() => {
                                     setIsOpen(false);
                                 }}
                             >Our Products</a></li>
-                            <li><a href='/about-us' className="text-[#461e04] hover:bg-transparent"
+                            <li><a href='/about-us' className="text-[#461e04] text-sm hover:bg-transparent"
                                 onClick={() => {
                                     setIsOpen(false)
                                 }}
                             >Our Story</a></li>
-                            <li><a href='/contact' className="text-[#461e04] hover:bg-transparent"
+                            <li><a href='/contact' className="text-[#461e04] text-sm hover:bg-transparent"
                                 onClick={() => {
                                     setIsOpen(false)
                                 }}
                             >Contact Us</a></li>
-                            <li><a href='/where-to-buy' className="text-[#461e04] hover:bg-transparent"
+                            <li><a href='/where-to-buy' className="text-[#461e04] text-sm hover:bg-transparent"
                                 onClick={() => {
                                     setIsOpen(false)
                                 }}

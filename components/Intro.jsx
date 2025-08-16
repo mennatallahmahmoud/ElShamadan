@@ -35,7 +35,7 @@ export default function Intro() {
   return (
 
     <div className="hero-sec h-screen relative bg-cover bg-center">
-      <motion.h1 className="absolute [text-shadow:1px_1px_2px_#ffffff,2px_2px_4px_#ffffff] z-10 left-1/2 top-[20%] md:top-[18%] -translate-x-1/2 text-4xl text-[#461e04] tracking-widest font-bold w-full text-center px-5"
+      <motion.h1 className="absolute z-10 left-1/2 top-[20%] md:top-[18%] -translate-x-1/2 text-4xl text-[#461e04] tracking-[5px] font-bold w-full text-center px-5"
         initial={{ y: -100, opacity: 0 }} 
         whileInView={{ y: 0, opacity: 1 }} 
         transition={{
@@ -57,9 +57,12 @@ export default function Intro() {
         </Link>
       </div>
       <div className="scroll-icon absolute top-[85%] left-1/2 -translate-x-1/2 cursor-pointer" onClick={scrollToBottom}>
-        <button className="btn border-none rounded-3xl px-10 transition-all font-semibold duration-700 bg-[#ffd112] hover:bg-[#461e04] hover:text-white text-[#461e04] hover:px-20 shadow-none" 
-        onClick={() => document.querySelector("#hero").scrollIntoView({ behavior: 'smooth' })}>
-          <span className="relative z-10 text-lg">Explore</span></button>
+        <button className="intro-btn cursor-pointer"
+          onClick={() => document.querySelector("#hero").scrollIntoView({ behavior: 'smooth' })}>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#461e04" className="size-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </button>
       </div>
     </div>
   )

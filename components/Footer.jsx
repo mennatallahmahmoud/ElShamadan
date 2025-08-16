@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <div>
-        <footer className={`footer sm:footer-horizontal text-[#461e04] p-10 ${pathname === '/' ? 'bg-yellow-300' : 'bg-[#fefcf9]'}`}>
+        <footer className={`footer sm:footer-horizontal text-[#461e04] p-10 ${pathname === '/' ? 'bg-[#fade44]' : 'bg-[#fefcf9]'}`}>
             <nav>
                 <h6 className="footer-title">Products</h6>
                 <Link href='/products' className="link link-hover">ElShamadan</Link>
@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
             </nav>
         </footer>
-        <footer className={`footer sm:footer-horizontal footer-center text-[#461e04] p-4 border-t-2 border-solid border-t-[#461e042b] ${pathname === '/' ? 'bg-yellow-300' : 'bg-[#fefcf9]'}`}>
+        <footer className={`footer sm:footer-horizontal footer-center text-[#461e04] p-4 border-t-2 border-solid border-t-[#461e042b] ${pathname === '/' ? 'bg-[#fade44]' : 'bg-[#fefcf9]'}`}>
             <aside>
                 <p>Copyright © {new Date().getFullYear()} - All right reserved by Mennat-Allah</p>
             </aside>

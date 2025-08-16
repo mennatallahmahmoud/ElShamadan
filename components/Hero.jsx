@@ -18,7 +18,7 @@ export default function Hero() {
         <p className="text-2xl font-semibold text-[#461e04] mb-5 capitalize">
           A Sweet taste from the past<br/>still here to last!</p>
         <Link href='/products' className="btn border-none rounded-3xl px-10 transition-all font-semibold duration-700 bg-[#ffd112] hover:bg-[#461e04] hover:text-white text-[#461e04] hover:px-20 shadow-none">
-          <span className="relative z-10">Discover Products</span></Link>
+          <span className="relative z-10">Explore</span></Link>
       </motion.div>
     </div>
   )
