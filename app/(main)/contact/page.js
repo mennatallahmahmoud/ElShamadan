@@ -21,7 +21,7 @@ export default function Contact() {
 
   return (
     
-    <div className='py-50 secondary-bg bg-cover bg-center relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-[#00000010] min-h-[100vh]'>
+    <main className='py-50 secondary-bg bg-cover bg-center relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-[#00000010] min-h-[100vh]'>
         {submitted ? (
           <ThankYou userName={userName}/>
         ) : (
@@ -64,10 +64,10 @@ export default function Contact() {
                 <label className="label">Max size 2MB</label>
               </fieldset>
               <button type="submit" className="btn block w-full lg:w-[50%] text-base rounded-3xl uppercase font-semibold mt-10 border-none transition-all duration-500 bg-[#ffd112] text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
-              >Send</button>
+              aria-label="Send Form" >Send</button>
             </form>
           </>
         )}
-    </div>
+    </main>
   )
 }

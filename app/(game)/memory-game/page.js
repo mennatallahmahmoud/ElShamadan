@@ -104,7 +104,7 @@ export default function MemoryGame() {
     }
 
     return (
-    <div className="game-pg relative pb-8 h-[100vh]">
+    <main className="game-pg relative pb-8 h-[100vh]">
         <div className='bg-[#461e04] text-[#fefcf9] text-lg font-bold text-center py-2'>Timer: {timer}</div>
         <h2 className="text-center text-2xl font-bold text-[#461e04] mt-8 tracking-wider uppercase" onClick={() => console.log(cards)}>Memory Game</h2>
         {showCongrats && <h2 className='absolute w-full h-full top-0 left-0 bg-[#461e0494] text-[#ffd554] flex justify-center items-center text-4xl font-bold z-50 uppercase text-center'>You Won!<br/>Congratulations</h2>}
@@ -122,10 +122,10 @@ export default function MemoryGame() {
             ))}
         </div>
         <div className='w-[70%] mt-8 mx-auto flex justify-center items-center flex-col md:flex-row gap-2.5'>
-            <button className='btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 hover:bg-[#461e04] text-[#461e04] hover:text-[#fefcf9]'
+            <button aria-label='Reset Game' className='btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-yellow-300 hover:bg-[#461e04] text-[#461e04] hover:text-[#fefcf9]'
             onClick={resetGame}>Reset Game</button>
-            <Link href='/' className='btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#461e04] hover:bg-yellow-300 text-[#fefcf9] hover:text-[#461e04]'>Back Home</Link>
+            <Link href='/' aria-label='Go To Home Page' className='btn shadow-sm px-8 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#461e04] hover:bg-yellow-300 text-[#fefcf9] hover:text-[#461e04]'>Back Home</Link>
         </div>
-    </div>
+    </main>
     )
 }

@@ -27,7 +27,7 @@ export const metadata = {
   title: "ElShamadan",
   description: "Egyptian local brand for wafer and biscuits",
   icons: {
-    icon: "/icon.png",
+    icon: "/icon.webp",
   },
 };
 
