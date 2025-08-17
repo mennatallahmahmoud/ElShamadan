@@ -116,7 +116,7 @@ export default function MemoryGame() {
                     {flipped.includes(index) || matches.includes(index) ? (
                         <img src={card} className='p-2 rotate-180' alt='Card Image'/>
                     ) : (
-                        <img src='/assets/imgs/logo.png' className='w-1/2 opacity-50' alt='ElShamadan Logo'/>
+                        <img src='/assets/imgs/logo.webp' className='w-1/2 opacity-50' alt='ElShamadan Logo'/>
                     )}
                 </div>
             ))}
