@@ -50,6 +50,7 @@ export default function Footer() {
         </footer>
         <footer className={`footer sm:footer-horizontal footer-center text-[#461e04] p-4 border-t-2 border-solid border-t-[#461e042b] ${pathname === '/' ? 'bg-[#fade44]' : 'bg-[#fefcf9]'}`}>
             <aside>
+                <p>This website is a personal concept project. All images and trademarks belong to their respective owners.</p>
                 <p>Copyright © {new Date().getFullYear()} - All right reserved by Mennat-Allah</p>
             </aside>
         </footer>
