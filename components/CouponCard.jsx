@@ -32,12 +32,12 @@ export default function CouponCard({setShowCard}) {
         </button>
         <div className="flex justify-center items-center flex-col md:flex-row">
           <div className="flex-[25%]">
-            <Image width={1000} height={0} className="w-full mx-auto my-3 md:my-0" src="/assets/imgs/logo.webp" alt="ElShamadan Logo"/>
+            <Image width={1000} height={200} className="w-full mx-auto my-3 md:my-0" src="/assets/imgs/logo.webp" alt="ElShamadan Logo"/>
           </div>
           <div className="flex-[75%] py-3 my-auto border-t-2 md:border-l-2 md:border-t-0 border-dashed border-[#8080806b] mx-[10px] text-center">
             <p className="text-[#461e04] text-lg lg:text-2xl font-bold p-2 lg:p-5">{coupon.title}</p>
             <span className="text-gray-600 text-sm lg:text-base">Scan me to claim your Coupon</span>
-            <Image width={1000} height={0} className="w-2/5 mx-auto" src="/assets/imgs/qr-code.svg" alt="Coupon QR Code"/> 
+            <Image width={1000} height={200} className="w-2/5 mx-auto" src="/assets/imgs/qr-code.svg" alt="Coupon QR Code"/> 
             <span className="text-gray-400 text-xs lg:text-sm">valid until -{coupon.expiryDate}-</span>
           </div>
         </div>

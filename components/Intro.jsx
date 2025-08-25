@@ -45,7 +45,7 @@ export default function Intro() {
         viewport={{ once: true, amount: 0.3 }}>The Flavor You Remember!</motion.h1>
       <div className={`fixed transition-all duration-1000 ease-in-out z-50 
         ${scrolled ? 'top-2 left-5 translate-x-0 translate-y-0' : ' left-1/2 top-[40%] md:top-[28%] -translate-x-1/2 '}`}>
-        <Link href='/' aria-label="Go To Home Page">
+        <Link rel="preload" as="image" href='/' aria-label="Go To Home Page">
           <motion.img className={`${scrolled ? 'w-16' : 'w-56 ms-auto'}`} src="/assets/imgs/logo.webp" alt="ElShamadan Logo"
             initial={{ scale: 0.3 }} 
             whileInView={{ scale: 1 }} 

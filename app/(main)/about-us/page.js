@@ -21,10 +21,10 @@ export default function About() {
             <Link href='/products' aria-label="Go To Products Page" className="btn text-base shadow-sm px-12 border-none font-semibold rounded-3xl transition-all duration-700 bg-[#ffd112] text-[#461e04] mt-5 hover:text-white hover:bg-[#461e04] hover:px-16">Discover</Link>
         </div>
         <div className="col-span-4 lg:col-span-2">
-            <Image width={1000} height={0} src="/assets/imgs/about-sec-1.webp" className="rounded-sm shadow-xl" loading="lazy" alt="ElShamadan Story"/>
+            <Image width={1000} height={200} src="/assets/imgs/about-sec-1.webp" className="rounded-sm shadow-xl" loading="lazy" alt="ElShamadan Story"/>
         </div>
         <div className="hidden lg:block col-span-4 lg:col-span-2">
-            <Image width={1000} height={0} src="/assets/imgs/about-sec-2.webp" className="rounded-sm shadow-xl" loading="lazy" alt="ElShamadan Journey"/>
+            <Image width={1000} height={200} src="/assets/imgs/about-sec-2.webp" className="rounded-sm shadow-xl" loading="lazy" alt="ElShamadan Journey"/>
         </div>
         <div className="col-span-4 lg:col-span-2 py-8 w-[90%] lg:w-[70%] mx-auto">
             <p className="text-[#461e049f] text-lg leading-9"><span className="text-[#461e04] text-4xl font-bold">Today, ElShamadan is a name that travels beyond borders</span>

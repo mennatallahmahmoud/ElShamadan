@@ -12,7 +12,7 @@ export default function Categories() {
   return (
     <main id="categories" className='mb-20 text-center'>
       <div>
-        <Image width={1000} height={0} src='/assets/imgs/choco-line.webp' className='mx-auto w-full' loading="lazy" alt="Categories Section"/>
+        <Image width={1000} height={200} src='/assets/imgs/choco-line.webp' className='mx-auto w-full' loading="lazy" alt="Categories Section"/>
         <div>
           <h2 className='text-2xl md:text-4xl text-[#461e04] font-bold tracking-widest uppercase mb-10 md:mb-16 mx-5 md:mx-0'>
             <span className="block font-normal text-red-600 text-base md:text-lg -mb-[5px] tracking-wider">Explore Our</span>
@@ -31,7 +31,7 @@ export default function Categories() {
         viewport={{ once: true, amount: 0.2 }}>
           <Link href={`/products/${cat.product}`} className='absolute w-full h-full top-0 left-0 z-10' aria-label="Go To Product"></Link>
           <figure className="mx-10 mt-10 overflow-hidden rounded-md">
-            <Image width={1000} height={1000}
+            <Image width={500} height={500}
               src={cat.src}
               alt={cat.title}
               className="transition-all duration-700 rounded-md"/>

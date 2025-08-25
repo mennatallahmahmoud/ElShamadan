@@ -49,7 +49,7 @@ export default function App() {
         {products && products.map((prd) => (
         <SwiperSlide>
             <Link href={`/products/${prd.id}`} className='p-3' key={prd.id} aria-label='Go To Product'>
-                <Image width={1000} height={0} src={prd.src} className='!w-[70%] lg:!w-full mx-auto' loading='lazy' alt={prd.title}/>
+                <Image width={1000} height={150} src={prd.src} className='!w-[70%] lg:!w-full mx-auto' loading='lazy' alt={prd.title}/>
             </Link>
         </SwiperSlide>
         ))}

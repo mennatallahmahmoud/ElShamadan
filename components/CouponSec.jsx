@@ -13,7 +13,7 @@ export default function CouponSec() {
         <div className="card bg-[#fefcf9] w-[90%] md:w-[80%] lg:w-[40%] card-md shadow-sm mx-auto py-3 rounded-3xl">
             <div className="card-body text-center">
                 <h2 className="card-title md:text-lg text-[#461e04] tracking-wider mx-auto">It’s Time to taste our Happiness!</h2>
-                <Image width={1000} height={0} className="w-[40%] md:w-[25%] mx-auto" src="/assets/imgs/wafer-icon.svg" alt="Coupon Icon"/>
+                <Image width={1000} height={100} className="w-[40%] md:w-[25%] mx-auto" src="/assets/imgs/wafer-icon.svg" alt="Coupon Icon"/>
                 <div className="justify-end card-actions">
                   <button className="btn rounded-3xl uppercase font-semibold mt-6 border-none transition-all duration-500 bg-[#ffd112] text-[#461e04] hover:bg-[#461e04] hover:text-white hover:px-10 mx-auto"
                     onClick={() => setShowCard(true)} aria-label="Open Coupon">Get Your Coupon!</button>
